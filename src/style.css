@@ -19,9 +19,13 @@ li {
   color: rgb(135, 135, 135);
   font-size: 16px;
   font-weight: 100;
-  text-transform: capitalize;
   line-height: 19px;
 }
+
+li::first-letter {
+  text-transform: capitalize;
+}
+
 .weather-app {
   padding: 20px;
   border: 1px solid #dadde1;
