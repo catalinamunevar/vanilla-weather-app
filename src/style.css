@@ -1,11 +1,14 @@
 body {
+  background-image: url(https://img.freepik.com/free-vector/hand-drawn-adventure-background_23-2149048448.jpg?w=1480&t=st=1687313875~exp=1687314475~hmac=d850ad60720c895c1f2a1db901dd9fa1a012c837f9c453926566c0dd7ea790b3);
+  background-repeat: no-repeat;
+  background-position: center center;
   font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
-  color: #878787;
+  color: #38284d;
   font-size: 24px;
   font-weight: 100;
-  line-height: 28px;
+  line-height: 24px;
   margin-bottom: 0;
 }
 ul {
@@ -16,7 +19,7 @@ li {
   list-style: none;
   margin: 0;
   padding: 0;
-  color: rgb(135, 135, 135);
+  color: #404040;
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
@@ -26,14 +29,17 @@ li::first-letter {
   text-transform: capitalize;
 }
 
-a:link {
+a {
   text-decoration: none;
+  color: white;
+  font-weight: 600;
 }
 
 .weather-app {
-  padding: 20px;
+  background: #ffffff;
+  padding: 25px;
   border: 1px solid #dadde1;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 .weather-app-wrapper {
   max-width: 600px;
@@ -48,7 +54,7 @@ a:link {
   height: 64px;
 }
 .weather-temperature strong {
-  color: rgb(33, 33, 33);
+  color: #404040;
   font-size: 64px;
   font-weight: 400;
   line-height: 1;
@@ -58,7 +64,7 @@ a:link {
 }
 
 .weather-temperature .active {
-  color: rgb(33, 33, 33);
+  color: #404040;
   cursor: default;
 }
 
@@ -69,12 +75,12 @@ a:link {
 .weather-forecast {
   margin-top: 20px;
   text-align: center;
-  color: #000;
+  color: #38284d;
 }
 
 .weather-forecast-date {
   font-size: 16px;
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 .weather-forecast-temperatures {
@@ -82,5 +88,10 @@ a:link {
 }
 
 .weather-forecast-temperature-min {
-  opacity: 0.5;
+  opacity: 0.7;
+}
+.footer {
+  padding: 5px 20px;
+  max-width: 600px;
+  color: white;
 }
